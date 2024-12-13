@@ -1,11 +1,15 @@
-# Goal:
-**Frontend Annotation Tool**: Design a frontend application to:
+# Goal: Design a Frontend Annotation Tool
+
+In this challenge, candidates are expected to design a frontend application to:
    - Fetch images from the backend.
-   - Allow users to draw bounding boxes.
-   - Assign labels for **Color** and **Shape** categories to each boxes.
+   - Enable users to draw bounding boxes to mark, annotate, or label objects for training a machine learning model.
+   - In this mock scenario, objects are geometric **shapes (Square or Circle)** in various **colors (Red, Blue, Green, or Black)**.
+   - Provide an intuitive and efficient user interface to assign labels for Color and Shape categories to each bounding box quickly.
    - Send the annotations to `POST /submit-bbox`. Refer to swagger docs for schema.
 
-Feel free to use any library to make this work. An exaple of such library that can be used is here [Annotorious React](https://annotorious.dev/react/custom-popups/) for bounding box creation and labeling.
+You are welcome to use any library to implement this functionality. An exaple of such library that can be used is here [Annotorious React](https://annotorious.dev/react/custom-popups/) for bounding box creation and labeling.
+
+For any clarifications, please reach out to n.prakash@jaipurrobotics.com
 
 ## FastAPI backend to serve mock images
 
