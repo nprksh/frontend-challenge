@@ -2,12 +2,12 @@
 
 In this challenge, candidates are expected to design a frontend application to:
    - Fetch images from the backend.
-   - Enable users to draw bounding boxes to mark, annotate, or label objects for training a machine learning model.
+   - Enable users to draw bounding boxes to mark, annotate, or label objects to train a machine learning model.
    - In this mock scenario, objects are geometric **shapes (Square or Circle)** in various **colors (Red, Blue, Green, or Black)**.
    - Provide an intuitive and efficient user interface to assign labels for Color and Shape categories to each bounding box quickly.
    - Send the annotations to `POST /submit-bbox`. Refer to swagger docs for schema.
 
-You are welcome to use any library to implement this functionality. An exaple of such library that can be used is here [Annotorious React](https://annotorious.dev/react/custom-popups/) for bounding box creation and labeling.
+You are welcome to use any library to implement this functionality. An example of such a library that can be used for bounding box creation is [Annotorious React](https://annotorious.dev/react/custom-popups/).
 
 For any clarifications, please reach out to n.prakash@jaipurrobotics.com
 
@@ -23,7 +23,7 @@ This repository provides a **FastAPI backend** to serve mock images with randoml
      - **Shape**: Square, or Circle.
    - Each response includes a unique image ID in the headers.
 
-   - **Access Swagger Documentation:** Open your browser and navigate to: [https://demo-omega-lovat.vercel.app/docs](https://frontend-challenge-tau-ruddy.vercel.app/docs)
+   - **Access Swagger Documentation:** Open your browser and navigate to: [frontend-challenge-tau-ruddy.vercel.app/docs](https://frontend-challenge-tau-ruddy.vercel.app/docs)
 
 
 
